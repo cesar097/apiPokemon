@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500&family=Montserrat:ital,wght@1,300&family=Open+Sans&family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@1,700&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+
+    <div class="pokedex">
+    <form action="" onsubmit="searchPokemon(event)">
+      <input type="text" name="pokemon" autocomplete="off" />
+    </form>
+
+    <div data-poke-card class="poke-card">
+      <div data-poke-name class="pokeName1">Pokedex</div>
+      <div data-poke-img-container class="img-container">
+        <img data-poke-img class="poke-img" src="./pikachu.png"/>
+      </div>
+      <div data-poke-id class="pokeId"></div>
+      <div data-poke-types class="poke-types"></div>
+      <div data-poke-stats class="poke-stats"></div>
+    </div>
+
+  </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

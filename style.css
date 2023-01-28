@@ -1,0 +1,95 @@
+
+body {
+  background-color: #ffdd90;
+  background-image: url("https://www.nintenderos.com/wp-content/uploads/2019/02/pokemon-espada-y-escudo.-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+form {
+  width: 200px;
+  margin: 20px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.poke-card {
+  position: relative;
+  height: fit-content;
+  font-family: 'roboto mono', monospace;
+  max-width: 300px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid black;
+
+
+
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+
+
+.poke-stats div {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.poke-types div {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.poke-img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+
+
+.pokeId {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    background-color: #ffdd90;
+    background-image: url("https://e0.pxfuel.com/wallpapers/90/283/desktop-wallpaper-sophie-on-fondos-de-pantalla-anime-phone-pokemon-anime-scenery-pokemon-nature.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  .poke-card {
+    max-width: 220px;
+}
+
+
+
+.poke-stats{
+  padding: 5px;
+}
+
+}
